@@ -27,7 +27,7 @@ public class Health : MonoBehaviour
             deathSound.Play();
         }
     }
-    private void TakeDamage()
+    public void TakeDamage()
     {
         healthPoints = Mathf.Max(healthPoints-1,0);
         animator.SetTrigger("death");
