@@ -71,4 +71,10 @@ public class PlayerController : MonoBehaviour
     {
         return (-0.1f < rb.velocity.y && rb.velocity.y < 0.1f) && !Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.up, .1f, jumpableGround);
     }
+
+    public void ResetJump()
+    {
+        canJump = true;
+        canDoubleJump = true;
+    }
 }

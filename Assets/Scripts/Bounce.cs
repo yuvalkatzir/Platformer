@@ -19,6 +19,7 @@ public class Bounce : MonoBehaviour
                 trampolineSound.Play();
             }
             playerController.Jump(jumpForce);
+            playerController.ResetJump();
         }
     }
 }

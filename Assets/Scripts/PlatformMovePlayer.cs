@@ -14,9 +14,11 @@ public class PlatformMovePlayer : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
+
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.transform.SetParent(null);
         }
+
     }
 }

@@ -10,6 +10,8 @@ TagManager:
   - Trampoline
   - Apple
   - Banana
+  - Rino
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Player
   - 
   - 
   - 
